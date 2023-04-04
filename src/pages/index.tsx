@@ -1,4 +1,5 @@
-import Head from "next/head";
+import Head from 'next/head'
+import ContactCard from '@components/ContactCard'
 
 export default function Home() {
   return (
@@ -9,9 +10,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={"bg-gray-900 text-gray-100 text-2xl text-center"}>
+      <main className={'bg-gray-900 text-gray-100 text-2xl text-center'}>
         <div>Test Homepage</div>
+        <ContactCard emailAddress={'test@test.com'} />
       </main>
     </>
-  );
+  )
 }
