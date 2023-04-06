@@ -1,9 +1,11 @@
 import Card from '@components/Card'
 import EducationItem from '@components/EducationItem'
 import ExperienceItem from '@components/ExperienceItem'
+import Hyperlink from '@components/Hyperlink'
 import Paragraph from '@components/Paragraph'
 import SkillBadge from '@components/SkillBadge'
 import SkillGrid from '@components/SkillGrid'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -18,10 +20,15 @@ export default function Home() {
           </div>
           <div className="flex-1">
             <Card>
-              <div>Phone</div>
-              <div>Location</div>
-              <div>Email</div>
-              <div>Links</div>
+              <div className="flex flex-col p-2">
+                <div className="text-right">Indian Land, SC</div>
+                <Hyperlink href={'mailto:mtr293@gmail.com'}>Email Me</Hyperlink>
+                <div className="flex flex-row-reverse">
+                  <Hyperlink href={'https://miggle.io'}>https://miggle.io</Hyperlink>
+                  <div className="px-2 text-gray-600">|</div>
+                  <Hyperlink href={'https://www.linkedin.com/in/mike-rogers88/'}>LinkedIn</Hyperlink>
+                </div>
+              </div>
             </Card>
           </div>
         </div>
