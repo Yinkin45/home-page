@@ -1,4 +1,5 @@
 import Card from '@components/Card'
+import EducationItem from '@components/EducationItem'
 import ExperienceItem from '@components/ExperienceItem'
 import Paragraph from '@components/Paragraph'
 
@@ -24,7 +25,7 @@ export default function Home() {
         </div>
         <div className="p-2" />
         <div className="flex flex-col space-y-4">
-          <div className="">
+          <div>
             <Card title="About Me">
               <Paragraph>
                 As a security professional with years of experience in protecting sensitive data and critical systems, I
@@ -50,7 +51,7 @@ export default function Home() {
               </Paragraph>
             </Card>
           </div>
-          <div className="">
+          <div>
             <Card title="Experience">
               <ExperienceItem
                 title={'Security Professional'}
@@ -89,12 +90,23 @@ export default function Home() {
               />
             </Card>
           </div>
+          <div>
+            <Card title="Education">
+              <EducationItem
+                school={'Johnson & Wales University'}
+                degree={'B.A. in Marketing'}
+                startDate={'2007'}
+                endDate={'2011'}
+                gpa={'3.6'}
+                activities={[
+                  'Facilitated campus tours for prospective students and their families.',
+                  "Served as a student ambassador for the university's marketing department.",
+                  'Represented the university at various events and conferences.',
+                ]}
+              />
+            </Card>
+          </div>
         </div>
-
-        <div>Experience</div>
-        <div>Education</div>
-        <div>Skills</div>
-        <div>Projects</div>
       </main>
     </>
   )
