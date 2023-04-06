@@ -63,6 +63,30 @@ export default function Home() {
                   'Prepared logs and reports of daily activities and irregularities, such as equipment or property damage, theft, presence of unauthorized persons, or unusual occurrences.',
                 ]}
               />
+              <ExperienceItem
+                title={'Security Supervisor'}
+                company={'Allied Universal'}
+                startDate={'Nov 2012'}
+                endDate={'Dec 2019'}
+                duties={[
+                  'Supervised and coordinated activities of security personnel at assigned site to ensure that services are provided according to contract specifications and that client needs are met.',
+                  'Conducted investigations of incidents and accidents to gather facts and prepare reports.',
+                  'Created schedules and assigned duties to security personnel to ensure adequate coverage.',
+                ]}
+              />
+              <ExperienceItem
+                title={'Full Stack Web Developer'}
+                company={'Self-Taught'}
+                startDate={'Jan 2020'}
+                endDate={'Present'}
+                duties={[
+                  'Developed a front-end application using React, Tailwind CSS, and TypeScript.',
+                  'Built a back-end service layer using tRPC, Next.js, and TypeScript.',
+                  'Added persistence to the application using MySQL and Prisma.',
+                  'Implemented authentication using NextAuth.js with GitHub OAuth.',
+                  'Deployed the application to Vercel, using CI/CD to automatically deploy changes to the main branch.',
+                ]}
+              />
             </Card>
           </div>
         </div>
