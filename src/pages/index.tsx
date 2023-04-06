@@ -5,7 +5,6 @@ import Hyperlink from '@components/Hyperlink'
 import Paragraph from '@components/Paragraph'
 import SkillBadge from '@components/SkillBadge'
 import SkillGrid from '@components/SkillGrid'
-import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -14,8 +13,10 @@ export default function Home() {
         <div className="flex flex-row space-x-4">
           <div className="flex-1">
             <Card>
-              <div>Michael &ldquo;Miggle&rdquo; Rogers</div>
-              <div>Full Stack Web Developer</div>
+              <div className="flex flex-col p-4 space-y-2">
+                <div className="text-left text-4xl">Michael Rogers</div>
+                <div className="text-left text-3xl text-amber-400">Full Stack Web Developer</div>
+              </div>
             </Card>
           </div>
           <div className="flex-1">
@@ -27,6 +28,8 @@ export default function Home() {
                   <Hyperlink href={'https://miggle.io'}>https://miggle.io</Hyperlink>
                   <div className="px-2 text-gray-600">|</div>
                   <Hyperlink href={'https://www.linkedin.com/in/mike-rogers88/'}>LinkedIn</Hyperlink>
+                  <div className="px-2 text-gray-600">|</div>
+                  <Hyperlink href={'https://github.com/Yinkin45'}>GitHub</Hyperlink>
                 </div>
               </div>
             </Card>
