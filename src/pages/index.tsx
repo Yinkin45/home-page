@@ -71,6 +71,17 @@ export default function Home() {
           <div>
             <Card title="Experience">
               <ExperienceItem
+                title={'Marketing Intern'}
+                company={'Smarter Systems'}
+                startDate={'Feb 2011'}
+                endDate={'May 2011'}
+                duties={[
+                  'Developed and implemented marketing strategies to increase brand awareness and customer engagement.',
+                  'Created and distributed promotional materials, including flyers, brochures, and posters.',
+                  'Designed and maintained a spreadsheet of customer information.',
+                ]}
+              />
+              <ExperienceItem
                 title={'Security Professional'}
                 company={'Allied Barton'}
                 startDate={'Aug 2010'}
