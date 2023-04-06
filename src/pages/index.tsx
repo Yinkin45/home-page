@@ -2,6 +2,8 @@ import Card from '@components/Card'
 import EducationItem from '@components/EducationItem'
 import ExperienceItem from '@components/ExperienceItem'
 import Paragraph from '@components/Paragraph'
+import SkillBadge from '@components/SkillBadge'
+import SkillGrid from '@components/SkillGrid'
 
 export default function Home() {
   return (
@@ -104,6 +106,24 @@ export default function Home() {
                   'Represented the university at various events and conferences.',
                 ]}
               />
+            </Card>
+          </div>
+          <div>
+            <Card title="Skills">
+              <SkillGrid>
+                <SkillBadge name={'TypeScript'} />
+                <SkillBadge name={'JavaScript'} />
+                <SkillBadge name={'Python'} />
+                <SkillBadge name={'Git'} />
+                <SkillBadge name={'React'} />
+                <SkillBadge name={'Tailwind CSS'} />
+                <SkillBadge name={'Next.js'} />
+                <SkillBadge name={'NextAuth.js'} />
+                <SkillBadge name={'tRPC'} />
+                <SkillBadge name={'MySQL'} />
+                <SkillBadge name={'Prisma'} />
+                <SkillBadge name={'Vercel'} />
+              </SkillGrid>
             </Card>
           </div>
         </div>
