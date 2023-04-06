@@ -14,7 +14,7 @@ export default function Home() {
           <div className="flex-1">
             <Card>
               <div className="flex flex-row p-4 space-x-8 place-items-center">
-                <div className="grid place-items-center bg-gray-900 border-4 border-amber-500 rounded-full w-[80px] h-[80px]">
+                <div className="grid place-items-center bg-gray-900 border-4 border-amber-500 rounded-full min-w-[80px] min-h-[80px]">
                   <div className="text-center text-4xl pb-1">MR</div>
                 </div>
                 <div className="flex flex-col space-y-2">
