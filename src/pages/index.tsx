@@ -34,7 +34,7 @@ export default function Home() {
                   <div className="px-2 text-gray-600">|</div>
                   <Hyperlink href={'https://www.linkedin.com/in/mike-rogers88/'}>LinkedIn</Hyperlink>
                   <div className="px-2 text-gray-600">|</div>
-                  <Hyperlink href={'https://github.com/Yinkin45'}>GitHub</Hyperlink>
+                  <Hyperlink href={'https://github.com/miggle88'}>GitHub</Hyperlink>
                 </div>
               </div>
             </Card>
