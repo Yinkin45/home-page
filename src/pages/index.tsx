@@ -30,11 +30,20 @@ export default function Home() {
                 <div className="text-right">Indian Land, SC</div>
                 <Hyperlink href={'mailto:mtr293@gmail.com'}>Email Me</Hyperlink>
                 <div className="flex flex-row-reverse">
-                  <Hyperlink href={'https://miggle.io'}>https://miggle.io</Hyperlink>
+                  <div className={'flex flex-row space-x-2 align'}>
+                    <i className="text-2xl devicon-chrome-plain" />
+                    <Hyperlink href={'https://miggle.io'}>https://miggle.io</Hyperlink>
+                  </div>
                   <div className="px-2 text-gray-600">|</div>
-                  <Hyperlink href={'https://www.linkedin.com/in/mike-rogers88/'}>LinkedIn</Hyperlink>
+                  <div className="flex flex-row space-x-2 align">
+                    <i className="text-2xl devicon-linkedin-plain" />
+                    <Hyperlink href={'https://www.linkedin.com/in/mike-rogers88/'}>LinkedIn</Hyperlink>
+                  </div>
                   <div className="px-2 text-gray-600">|</div>
-                  <Hyperlink href={'https://github.com/miggle88'}>GitHub</Hyperlink>
+                  <div className="flex flex-row space-x-2 align">
+                    <i className="text-2xl devicon-github-original" />
+                    <Hyperlink href={'https://github.com/miggle88'}>GitHub</Hyperlink>
+                  </div>
                 </div>
               </div>
             </Card>
