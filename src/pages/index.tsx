@@ -3,8 +3,8 @@ import EducationItem from '@components/EducationItem'
 import ExperienceItem from '@components/ExperienceItem'
 import Hyperlink from '@components/Hyperlink'
 import Paragraph from '@components/Paragraph'
+import ProjectBadge from '@components/ProjectBadge'
 import SkillBadge from '@components/SkillBadge'
-import SkillGrid from '@components/SkillGrid'
 
 export default function Home() {
   return (
@@ -136,7 +136,7 @@ export default function Home() {
           </div>
           <div>
             <Card title="Skills">
-              <SkillGrid>
+              <div className={'grid grid-cols-4 gap-4 px-2 py-4'}>
                 <SkillBadge name={'TypeScript'} />
                 <SkillBadge name={'JavaScript'} />
                 <SkillBadge name={'Python'} />
@@ -149,7 +149,25 @@ export default function Home() {
                 <SkillBadge name={'MySQL'} />
                 <SkillBadge name={'Prisma'} />
                 <SkillBadge name={'Vercel'} />
-              </SkillGrid>
+              </div>
+            </Card>
+          </div>
+          <div>
+            <Card title="Projects">
+              <div className="grid grid-cols-2 gap-4 p-4">
+                <ProjectBadge
+                  name={'D2 Rune Calculator'}
+                  description={'A web-based tool to calculate runewords and needed runes for Diablo 2'}
+                  href={'https://d2-rune-calc.miggle.io/'}
+                  imageURL={'/images/d2-rune-calc.png'}
+                />
+                <ProjectBadge
+                  name={'Portfolio Resume'}
+                  description={'This resume that was built using TypeScript, React, and Tailwind CSS'}
+                  href={'https://miggle.io/'}
+                  imageURL={'/images/portfolio-resume.png'}
+                />
+              </div>
             </Card>
           </div>
         </div>
