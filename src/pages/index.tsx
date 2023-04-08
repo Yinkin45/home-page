@@ -137,18 +137,18 @@ export default function Home() {
           <div>
             <Card title="Skills">
               <div className={'grid grid-cols-4 gap-4 px-2 py-4'}>
-                <SkillBadge name={'TypeScript'} />
-                <SkillBadge name={'JavaScript'} />
-                <SkillBadge name={'Python'} />
-                <SkillBadge name={'Git'} />
-                <SkillBadge name={'React'} />
-                <SkillBadge name={'Tailwind CSS'} />
-                <SkillBadge name={'Next.js'} />
-                <SkillBadge name={'NextAuth.js'} />
-                <SkillBadge name={'tRPC'} />
-                <SkillBadge name={'MySQL'} />
-                <SkillBadge name={'Prisma'} />
-                <SkillBadge name={'Vercel'} />
+                <SkillBadge name={'TypeScript'} iconClass={'devicon-typescript-plain'} />
+                <SkillBadge name={'JavaScript'} iconClass={'devicon-javascript-plain'} />
+                <SkillBadge name={'Python'} iconClass={'devicon-python-plain'} />
+                <SkillBadge name={'Git'} iconClass={'devicon-git-plain'} />
+                <SkillBadge name={'React'} iconClass={'devicon-react-original'} />
+                <SkillBadge name={'Tailwind CSS'} iconClass={'devicon-tailwindcss-plain'} />
+                <SkillBadge name={'Next.js'} iconClass={'devicon-nextjs-plain'} />
+                <SkillBadge name={'NextAuth.js'} iconClass={'devicon-nextjs-line'} />
+                <SkillBadge name={'tRPC'} iconClass={'devicon-codepen-plain'} />
+                <SkillBadge name={'MySQL'} iconClass={'devicon-mysql-plain'} />
+                <SkillBadge name={'Prisma'} iconClass={'devicon-sequelize-plain'} />
+                <SkillBadge name={'Vercel'} iconClass={'devicon-cmake-plain'} />
               </div>
             </Card>
           </div>
