@@ -30,11 +30,20 @@ export default function Home() {
                 <div className="text-right">Indian Land, SC</div>
                 <Hyperlink href={'mailto:mtr293@gmail.com'}>Email Me</Hyperlink>
                 <div className="flex flex-row-reverse">
-                  <Hyperlink href={'https://miggle.io'}>https://miggle.io</Hyperlink>
+                  <div className={'flex flex-row space-x-2 align'}>
+                    <i className="text-2xl devicon-chrome-plain" />
+                    <Hyperlink href={'https://miggle.io'}>https://miggle.io</Hyperlink>
+                  </div>
                   <div className="px-2 text-gray-600">|</div>
-                  <Hyperlink href={'https://www.linkedin.com/in/mike-rogers88/'}>LinkedIn</Hyperlink>
+                  <div className="flex flex-row space-x-2 align">
+                    <i className="text-2xl devicon-linkedin-plain" />
+                    <Hyperlink href={'https://www.linkedin.com/in/mike-rogers88/'}>LinkedIn</Hyperlink>
+                  </div>
                   <div className="px-2 text-gray-600">|</div>
-                  <Hyperlink href={'https://github.com/miggle88'}>GitHub</Hyperlink>
+                  <div className="flex flex-row space-x-2 align">
+                    <i className="text-2xl devicon-github-original" />
+                    <Hyperlink href={'https://github.com/miggle88'}>GitHub</Hyperlink>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -137,18 +146,18 @@ export default function Home() {
           <div>
             <Card title="Skills">
               <div className={'grid grid-cols-4 gap-4 px-2 py-4'}>
-                <SkillBadge name={'TypeScript'} />
-                <SkillBadge name={'JavaScript'} />
-                <SkillBadge name={'Python'} />
-                <SkillBadge name={'Git'} />
-                <SkillBadge name={'React'} />
-                <SkillBadge name={'Tailwind CSS'} />
-                <SkillBadge name={'Next.js'} />
-                <SkillBadge name={'NextAuth.js'} />
-                <SkillBadge name={'tRPC'} />
-                <SkillBadge name={'MySQL'} />
-                <SkillBadge name={'Prisma'} />
-                <SkillBadge name={'Vercel'} />
+                <SkillBadge name={'TypeScript'} iconClass={'devicon-typescript-plain'} />
+                <SkillBadge name={'JavaScript'} iconClass={'devicon-javascript-plain'} />
+                <SkillBadge name={'Python'} iconClass={'devicon-python-plain'} />
+                <SkillBadge name={'Git'} iconClass={'devicon-git-plain'} />
+                <SkillBadge name={'React'} iconClass={'devicon-react-original'} />
+                <SkillBadge name={'Tailwind CSS'} iconClass={'devicon-tailwindcss-plain'} />
+                <SkillBadge name={'Next.js'} iconClass={'devicon-nextjs-plain'} />
+                <SkillBadge name={'NextAuth.js'} iconClass={'devicon-nextjs-line'} />
+                <SkillBadge name={'tRPC'} iconClass={'devicon-codepen-plain'} />
+                <SkillBadge name={'MySQL'} iconClass={'devicon-mysql-plain'} />
+                <SkillBadge name={'Prisma'} iconClass={'devicon-sequelize-plain'} />
+                <SkillBadge name={'Vercel'} iconClass={'devicon-cmake-plain'} />
               </div>
             </Card>
           </div>
